@@ -18,6 +18,8 @@ mov  dh, 12   ;Row
 mov  bh, 0    ;Display page
 mov  ah, 02h  ;SetCursorPosition  ;Serviciul Functia 02 de la int 10h
 int  10h
+     
+     
                
 mov  ah, 09h ;Functia 09 de la Int 10h  
 mov  al, Val  
